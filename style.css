@@ -18,8 +18,6 @@ body {
   background-color: white;
 
 }
-
-/* Grupo com logo + h1 */
 .logo {
   display: flex;
   align-items: center;
@@ -29,6 +27,11 @@ body {
 .logo img {
   width: 40px;
   height: auto;
+}
+
+.logo a{
+  text-decoration: none;
+  color: #316092;
 }
 
 header h1 {
@@ -55,6 +58,7 @@ header nav li a {
 header nav li a:hover {
   color: #EA6A3E;
 }
+
 
 main {
 
@@ -109,6 +113,15 @@ margin-right: 50%;
   cursor: pointer;
 }
 
+.website_apresentation button:active {
+
+  background-color: #ad4c01;
+
+
+
+}
+
+
 main img {
 
   height: 500px;
@@ -117,10 +130,127 @@ main img {
 }
 
 #divisao {
-
 background-color: #e5d9c6;
 width: 2000px;
 height: 60px;
 margin-top: -60px;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 30px;
+  background-color: #f4eee5;
+  align-items: center;
+}
+
+.mission h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #316092;
+  font-size: 48px;
+}
+
+.mission p {
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  color: #4A4A4A	;
+  font-size: 20px;
+  max-width: 1000px;
+}
+
+.description {
+  display: flex;
+  padding: 0px 80px;
+  background-color: #fefcf7;
+  background-color: #f4eee5;
+  
+}
+
+.description section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.description img {
+  width: 80px;
+  padding: 0px 70px;
+}
+
+.description h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #316092;
+  font-size: 24px;
+}
+
+.description article {
+  margin-top: 20px;
+  font-size: 18px;
+  max-width: 250px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 150px;
+}
+
+.footer {
+  background-color: #f4eee5;
+  color: #4A4A4A;
+  font-family: 'Open Sans', sans-serif;
+  padding: 40px 80px 20px;
+}
+
+.footer-content {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #316092;
+}
+
+.footer-section {
+
+display: flex;
+flex-direction: column;;
 
 }
+
+.footer-section p,
+.footer-section li,
+.footer-section a {
+  font-size: 15px;
+  color: #4A4A4A;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section a:hover {
+  color: #EA6A3E;
+
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-bottom: 20px;
+  border-top: 1px solid #e5d9c6;
+  padding-top: 12px;
+  font-size: 15px;
+  background-color: #fefcf7;
+  color: #4A4A4A;
+
+}
+
+.footer-bottom a {
+  color: #4A4A4A;}
