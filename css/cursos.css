@@ -10,7 +10,7 @@
     padding: 20px 60px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     background-color: #E8CFA9;
-    border-bottom: 1px solid #e5d9c6;
+
   }
   
   body {
@@ -65,14 +65,81 @@
   
     display: flex;
     background-color: #f4eee5;
-  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  main h1 {
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color:#316092;
+  }
+
+ section{
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+ }
+
+.cursos {
+  background-color: white;
+  display: flex;
+  cursor: pointer;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
+
+}
+
+  .cursos img {
+
+    width: 100px;
+    height: 100px;
+
+  }
+
+  .escrita {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .escrita p {
+
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 20px;
+  }
+
+  #border-effect {
+
+  padding: 2px;
+  background: linear-gradient(45deg, #dbbd91, #f0dfc5);
+  border-radius:50px;
+  display: inline-block;
+
+  }
+
+  #botao_curso {
+    justify-content: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px; 
+    align-items: center;
   }
 
   #divisao {
     background-color: #e5d9c6;
     width: auto;
     height: 60px;
-    margin-top: -100px;
+
     border-top: 1px solid #d6cbb9;
     border-bottom: 1px solid #d6cbb9;
     }
@@ -81,7 +148,7 @@
     background-color: #f4eee5;
     color: #4A4A4A;
     font-family: 'Open Sans', sans-serif;
-    padding: 40px 80px 20px;
+    padding: 40px 8px 20px;
   }
   
   .footer-content {
