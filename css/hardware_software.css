@@ -77,64 +77,6 @@
     color:#316092;
   }
 
- section{
-  margin-top: 20px;
-  align-items: center;
-  justify-content: center;
- }
-
-.cursos {
-  background-color: white;
-  display: flex;
-  cursor: pointer;
-  gap: 50px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 25px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  margin-bottom: 40px;
-
-}
-
-  .cursos img {
-
-    width: 100px;
-    height: 100px;
-
-  }
-
-  .escrita {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .escrita p {
-
-    font-weight: 600;
-    font-family:'Courier New', Courier, monospace;
-    padding-left: 20px;
-  }
-
-  #border-effect {
-
-  padding: 2px;
-  background: linear-gradient(45deg, #dbbd91, #f0dfc5);
-  border-radius:50px;
-  display: inline-block;
-
-  }
-
-  #botao_curso {
-    justify-content: center;
-    background-color: white;
-    padding: 5px;
-    border-radius: 50px; 
-    align-items: center;
-    
-  }
 
   #divisao {
     background-color: #e5d9c6;
