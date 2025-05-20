@@ -91,7 +91,8 @@
     background-color: #f4eee5;
     color: #4A4A4A;
     font-family: 'Open Sans', sans-serif;
-    padding: 40px 8px 20px;
+    margin-left: -70px;
+    padding: 40px 100px 20px;
   }
   
   .footer-content {

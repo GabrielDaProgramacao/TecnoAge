@@ -77,10 +77,16 @@
     color:#316092;
   }
 
+  #espaço {
+    margin-top: 20px;
+    min-height: 60vh;
+  }
+
+
   #carrossel_container {
     position: relative;
-    width: 500px;
-    height: 300px;
+    width: 640px;
+    height: 360px;
     overflow: hidden;
     border-radius: 10px;
     margin-top: 15px;
@@ -88,15 +94,15 @@
   }
   
   #carrossel_container img {
-    width: 500px;
-    height: 300px;
+    width: 640px;
+    height: 360px;
     transition: opacity 0.5s ease-in-out;
   }
-  
+
   button.prev,
   button.next {
   position: absolute;
-  top: 45%;
+  top: 50%;
   transform: translateY(-50%);
   background-color: rgba(0,0,0,0.5);
   color: white;
@@ -114,16 +120,20 @@ button.prev {
 button.next {
   right: 10px;
 }
-  
+
+.texto-transicao {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
 
   #fundo_quem_somos {
-
+    margin-top: 5vh;
     background-color: white;
     border-radius: 25px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    margin-bottom: 40px;
     margin-right: 50vh;
     margin-left: 50vh;
+    margin-bottom: 5vh;
     padding: 20px 10px 20px 10px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
@@ -144,7 +154,8 @@ button.next {
     background-color: #f4eee5;
     color: #4A4A4A;
     font-family: 'Open Sans', sans-serif;
-    padding: 40px 8px 20px;
+    margin-left: -70px;
+    padding: 40px 100px 20px;
   }
   
   .footer-content {

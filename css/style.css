@@ -210,13 +210,13 @@ border-bottom: 1px solid #d6cbb9;
   background-color: #f4eee5;
   color: #4A4A4A;
   font-family: 'Open Sans', sans-serif;
-  padding: 40px 80px 20px;
+  margin-left: -70px;
+  padding: 40px 100px 20px;
 }
 
 .footer-content {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 32px;
 }
 
 .footer-section h3 {
