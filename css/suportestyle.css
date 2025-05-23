@@ -111,6 +111,12 @@ main p{
 
 }
 
+#background {
+
+background-color: #f4eee5;
+
+}
+
 .suportbutton:hover {
 
 background-color: #d7d7d7;
@@ -144,6 +150,18 @@ font-size: 25px;
 font-family: 'Open Sans', sans-serif;
 color: #4A4A4A;
 font-weight: 300;
+
+}
+
+#textoproativo {
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  color: #4A4A4A	;
+  font-size: 18px;
+  background-color: #f4eee5;
+  margin-bottom: 15px;
 
 }
 

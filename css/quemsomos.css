@@ -70,11 +70,13 @@
     flex-direction: column;
   }
 
-  main h1 {
+ .titulo {
     margin-top: 30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color:#316092;
+    text-align: center;
+    font-size: 30px;
   }
 
   #espaço {
@@ -126,21 +128,21 @@ button.next {
   transition: opacity 0.5s ease-in-out;
 }
 
-  #fundo_quem_somos {
-    margin-top: 5vh;
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    margin-right: 50vh;
-    margin-left: 50vh;
-    margin-bottom: 5vh;
-    padding: 20px 10px 20px 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    color: #4A4A4A	;
-    font-size: 18px;
+.fundo_quem_somos {
+  margin-top: 5vh;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-right: 50vh;
+  margin-left: 50vh;
+  margin-bottom: 5vh;
+  padding: 20px 10px 20px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  color: #4A4A4A	;
+  font-size: 18px;
 
-  }
+}
 
   #divisao {
     background-color: #e5d9c6;
@@ -149,6 +151,47 @@ button.next {
     border-top: 1px solid #d6cbb9;
     border-bottom: 1px solid #d6cbb9;
     }
+
+#texto_tec {
+  margin-top: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  color: #4A4A4A	;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+  
+}
+    
+#mapa {
+  margin: 25px;
+  width: 90%;
+  max-width: 600px;
+  height: 400px;
+  margin-bottom: 25px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  }
+
+.artigo {
+
+    display: flex;
+    background-color: #f4eee5;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#container_texto {
+  display: flex;
+  justify-content: center;
+}
+
 
   .footer {
     background-color: #f4eee5;
