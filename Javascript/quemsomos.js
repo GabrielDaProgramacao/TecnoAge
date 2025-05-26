@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
 
   const textos = [
-    "A Tecnosenior é uma organização sem fins lucrativos que acredita no poder transformador do conhecimento. Nosso objetivo é oferecer oportunidades de aprendizado a todos que buscam crescer e se desenvolver, promovendo inclusão e valorizando cada trajetória.",
+    "A TecnoAge é uma organização sem fins lucrativos que acredita no poder transformador do conhecimento. Nosso objetivo é oferecer oportunidades de aprendizado a todos que buscam crescer e se desenvolver, promovendo inclusão e valorizando cada trajetória.",
     "Acreditamos que o envelhecimento pode ser ativo e produtivo, com aprendizado contínuo ao longo da vida.",
     "Nossa missão é unir gerações por meio do conhecimento e do respeito mútuo, promovendo uma sociedade mais justa e inclusiva."
   ];

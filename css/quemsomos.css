@@ -136,7 +136,7 @@ button.next {
   margin-right: 50vh;
   margin-left: 50vh;
   margin-bottom: 5vh;
-  padding: 20px 10px 20px 10px;
+  padding: 20px 0px 20px 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   color: #4A4A4A	;
@@ -152,19 +152,37 @@ button.next {
     border-bottom: 1px solid #d6cbb9;
     }
 
+.container-texto {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.container-texto h1 {
+
+  margin-bottom: 25px;
+
+}
+
 #texto_tec {
-  margin-top: 15px;
+  font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
-  color: #4A4A4A	;
-  font-size: 18px;
-  margin-bottom: 10px;
-  text-align: center;
-  
+  color: #4A4A4A;
+
+}
+
+#texto_tec a {
+  color: #f26b00;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#texto_tec a:hover {
+  color: #d85c00;
 }
     
 #mapa {
-  margin: 25px;
+  margin-top: 25px;
   width: 90%;
   max-width: 600px;
   height: 400px;
@@ -193,13 +211,13 @@ iframe {
 }
 
 
-  .footer {
-    background-color: #f4eee5;
-    color: #4A4A4A;
-    font-family: 'Open Sans', sans-serif;
-    margin-left: -70px;
-    padding: 40px 100px 20px;
-  }
+.footer {
+background-color: #f4eee5;
+color: #4A4A4A;
+font-family: 'Open Sans', sans-serif;
+margin-left: 0 auto;
+padding: 40px 100px 20px;
+}
   
   .footer-content {
     display: flex;

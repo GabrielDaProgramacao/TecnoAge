@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TecnoSênior</title>
+    <title>TecnoAge</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/laptop-minimal-check (1).svg" type="image/x-icon">
 </head>
@@ -13,7 +13,7 @@
     <header>
         <div class="logo" role="button" onclick="window.location.href='index.html'">
           <img src="img/monitor.png" alt="Logo">
-          <h1>TecnoSênior</h1>
+          <h1>TecnoAge</h1>
         </div>
       
         <nav>
@@ -24,6 +24,29 @@
           </ul>
         </nav>
       </header>   
+
+  <div id="tutorialModal">
+    <div class="modal-content">
+      <img src="img/faq-7145852_1280.jpg">
+      <p>Deseja visualizar um tutorial de como utilizar o site?</p>
+      <div class="modal-buttons">
+        <button id="btnSim">Sim</button>
+        <button id="btnNao">Não</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="centralVideo">
+    <span class="close-button" id="btnFecharVideo">&times;</span>
+    <div class="video-wrapper">
+      <video controls>
+        <source src="tutorial.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+      </video>
+    </div>
+  </div>
+
+  <button id="btnReassistirTutorial" title="Reassistir tutorial">🎥 Tutorial</button>
 
     <main>
       <div class="website_apresentation_with_image">
@@ -79,7 +102,7 @@
         <div class="footer-content">
           <div class="footer-section">
             <h3>Contato</h3>
-            <p>Email: suporte@tecnosenior.com</p>
+            <p>Email: suporte@tecnoage.com</p>
             <p>WhatsApp: (61) 98546-8947</p>
             <p>Atendimento: Seg a Sex, das 9h às 18h</p>
           </div>
@@ -103,8 +126,9 @@
     </footer>
 
     <div class="footer-bottom">
-        <p>&copy; 2025 TecnoSênior — Todos os direitos reservados</p>
+        <p>&copy; 2025 TecnoAge — Todos os direitos reservados</p>
     </div>
       
+    <script src="Javascript/index.js"></script>
 </body>
 </html>

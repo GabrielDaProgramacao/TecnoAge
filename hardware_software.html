@@ -2,67 +2,99 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TecnoSênior</title>
-    <link rel="stylesheet" href="css/hardware_software.css">
-    <link rel="icon" href="img/laptop-minimal-check (1).svg" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TecnoAge</title>
+    <link rel="stylesheet" href="css/hardware_software.css" />
+    <link rel="icon" href="img/laptop-minimal-check (1).svg" type="image/x-icon" />
 </head>
 
 <body>
     <header>
         <div class="logo" role="button" onclick="window.location.href='index.html'">
-          <img src="img/monitor.png" alt="Logo">
-          <h1>TecnoSênior</h1>
+            <img src="img/monitor.png" alt="Logo" />
+            <h1>TecnoAge</h1>
         </div>
-      
+
         <nav>
-          <ul>
-            <li><a href="quemsomos.html">Quem Somos</a></li>
-            <li><a href="cursos.html">Cursos</a></li>
-            <li><a href="suporte.html">Suporte</a></li>
-          </ul>
+            <ul>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+            </ul>
         </nav>
-      </header> 
-      
-      <main>
+    </header>
 
-    
-      </main>
+    <div id="alerta">
+        <div class="modal-content">
+            <img src="img/cirene.webp" alt="imagem de alerta" />
+            <p>Este curso foi desenvolvido com o propósito de complementar um trabalho de conclusão de curso (TCC) e não possui certificação oficial pelo MEC.</p>
+            <form id="form-termos">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="termos" name="termos" required />
+                    <label for="termos">Li e entendo o aviso</label>
+                </div>
+                <button id="aceitar" type="submit">Aceitar</button>
+            </form>
+        </div>
+    </div>
 
-      <div id="divisao"></div>
+    <main>
+        <h1>Fundamentos de Hardware e Software</h1>
+        <div id="container">
+            <img src="img/freelance-work-7308505_1280-removebg-preview.png" alt="Imagem ilustrativa" />
+            <div class="texto">
+                <p>
+                    O curso <strong>"Fundamentos de Hardware e Software"</strong> foi desenvolvido para quem deseja entender, de forma clara e prática, como funcionam os computadores — desde as peças que compõem a máquina até os programas que usamos no dia a dia.
+                </p>
+                <p>
+                    Durante o curso, o aluno vai conhecer os principais componentes físicos do computador, como processador, memória, disco rígido e placa-mãe, além de aprender como os sistemas operacionais e os softwares trabalham com esses componentes para fazer tudo funcionar.
+                </p>
+                <p>
+                    A proposta é oferecer uma base sólida, com conteúdo teórico e prático, para que o aluno possa entender melhor a tecnologia que usamos todos os dias. O curso também é uma ótima preparação para quem pretende seguir na área de informática, seja em redes, suporte técnico ou programação.
+                </p>
+                <p>
+                    Se você quer dar os primeiros passos no mundo da tecnologia com segurança e confiança, este curso é o lugar certo para começar.
+                </p>
+                <button id="btncurso"><a href="">Acessar aulas</a></button>
+            </div>
+        </div>
+    </main>
 
-      <footer class="footer">
+    <div id="divisao"></div>
+
+    <footer class="footer">
         <div class="footer-content">
-          <div class="footer-section">
-            <h3>Contato</h3>
-            <p>Email: suporte@tecnosenior.com</p>
-            <p>WhatsApp: (61) 98546-8947</p>
-            <p>Atendimento: Seg a Sex, das 9h às 18h</p>
-          </div>
-      
-          <div class="footer-section">
-            <h3>Endereço</h3>
-            <p>Rua da Inclusão, 123</p>
-            <p>Brasília - DF</p>
-            <p>CEP 71085-362</p>
-          </div>
-      
-          <div class="footer-section">
-            <h3>Siga-nos</h3>
-            <p>
-              <a href="#">Facebook</a> | 
-              <a href="#">Instagram</a> | 
-              <a href="#">YouTube</a>
-            </p>
-          </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: suporte@tecnoage.com</p>
+                <p>WhatsApp: (61) 98546-8947</p>
+                <p>Atendimento: Seg a Sex, das 9h às 18h</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Endereço</h3>
+                <p>Rua da Inclusão, 123</p>
+                <p>Brasília - DF</p>
+                <p>CEP 71085-362</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Siga-nos</h3>
+                <p>
+                    <a href="#">Facebook</a> | 
+                    <a href="#">Instagram</a> | 
+                    <a href="#">YouTube</a>
+                </p>
+            </div>
         </div>
     </footer>
 
     <div class="footer-bottom">
-        <p>&copy; 2025 TecnoSênior — Todos os direitos reservados</p>
+        <p>&copy; 2025 TecnoAge — Todos os direitos reservados</p>
     </div>
-      <script src="Javascript/cursos.js"></script>
+
+    <script src="Javascript/hardware_software.js"></script>
 </body>
 
 </html>
