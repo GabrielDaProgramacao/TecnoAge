@@ -229,6 +229,7 @@ main li {
   box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
   transition: background-color 0.3s ease;
   margin-top: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
 
@@ -242,6 +243,8 @@ main li {
 #btncurso:hover {
   background-color: #d85c00;
   cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 #btncurso:active {

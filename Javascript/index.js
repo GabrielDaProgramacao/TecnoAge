@@ -36,4 +36,13 @@ window.addEventListener('DOMContentLoaded', () => {
   btnReassistir.addEventListener('click', () => {
     centralVideo.style.display = 'block';
   });
+
+  let visivel = false;
+
+  btnReassistir.addEventListener('click', function () {
+  visivel = !visivel;
+  centralVideo.style.display = visivel ? 'block' : 'none';
+});
+
+
 });
