@@ -5,7 +5,8 @@ window.addEventListener('DOMContentLoaded', () => {
   const btnNao = document.getElementById('btnNao');
   const btnFecharVideo = document.getElementById('btnFecharVideo');
   const btnReassistir = document.getElementById('btnReassistirTutorial');
-
+  const videoOverlay = document.getElementById('videoOverlay');
+  
   const mostrarBotaoReassistir = () => {
     btnReassistir.style.display = 'block';
   };
@@ -19,6 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
   btnSim.addEventListener('click', () => {
     tutorialModal.style.display = 'none';
     centralVideo.style.display = 'block';
+    videoOverlay.style.display = 'block';
     localStorage.setItem('tutorialVisto', 'true');
     mostrarBotaoReassistir();
   });
@@ -31,18 +33,20 @@ window.addEventListener('DOMContentLoaded', () => {
 
   btnFecharVideo.addEventListener('click', () => {
     centralVideo.style.display = 'none';
-  });
-
-  btnReassistir.addEventListener('click', () => {
-    centralVideo.style.display = 'block';
+    videoOverlay.style.display = 'none';
   });
 
   let visivel = false;
 
   btnReassistir.addEventListener('click', function () {
-  visivel = !visivel;
-  centralVideo.style.display = visivel ? 'block' : 'none';
-});
+    visivel = !visivel;
+    centralVideo.style.display = visivel ? 'block' : 'none';
+    videoOverlay.style.display = visivel ? 'block' : 'none';
+  });
 
-
+  videoOverlay.addEventListener('click', () => {
+    centralVideo.style.display = 'none';
+    videoOverlay.style.display = 'none';
+    visivel = false;
+  });
 });

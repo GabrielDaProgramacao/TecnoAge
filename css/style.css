@@ -136,6 +136,17 @@ header nav li a:hover {
   box-shadow: 0 0 20px rgba(0,0,0,0.7);
 }
 
+#videoOverlay {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 #centralVideo .video-wrapper {
   width: 100%;
   height: 100%;
@@ -174,7 +185,6 @@ header nav li a:hover {
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-
 }
 
 #btnReassistirTutorial:hover {
